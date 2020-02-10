@@ -34,6 +34,6 @@ for script in Keywords:
 	KeywordsAndRules[script] = tmp0
 	Rules[script] = tmp1
 print("writing!")
-with open("Keywords1.json", "w") as f: f.write(json.dumps(KeywordsAndRules, indent=4))
-with open("Keywords2.json", "w") as f: f.write(json.dumps(Rules, indent=4))
+with open("KeywordsAndRules.json", "w") as f: f.write(json.dumps(KeywordsAndRules, indent=4))
+with open("Rules.json", "w") as f: f.write(json.dumps(Rules, indent=4))
 print("done.")
